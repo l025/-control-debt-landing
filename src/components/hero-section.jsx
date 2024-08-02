@@ -17,18 +17,18 @@ export default function HeroSection() {
 
   useEffect(() => {
     const aniItems = document.querySelectorAll(".animate-01");
-    const tl = gsap.timeline({ defaults: { duration: 0.5 } });
+    const tl = gsap.timeline({ defaults: { duration: 0.5, delay: 0.5 } });
 
     aniItems.forEach((item, index) => {
       const el = item.firstChild;
       const delay = index * 0.05;
 
-      gsap.set(el, { rotate: 9, y: 120, opacity: 0 });
+      gsap.set(el, { rotate: 19, y: 120, opacity: 0 });
       tl.to(
         el,
         {
-          opacity: 1,
           y: 0,
+          opacity: 1,
           rotate: 0,
           ease: "power2",
         },
@@ -43,7 +43,7 @@ export default function HeroSection() {
     tlPaper
       .to("main", {
         opacity: 1,
-        duration: 0.5,
+        duration: 0.1,
         ease: "power1.out",
       })
       .to(
