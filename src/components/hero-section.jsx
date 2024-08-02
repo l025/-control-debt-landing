@@ -85,9 +85,9 @@ export default function HeroSection() {
   return (
     <main className="min-w-screen max-w-full min-h-screen flex justify-start items-end">
       <HeroSectionRive />
-      <div className="w-80 absolute right-[20%] md:right-[35%] xl:right-[45%] bottom-[30dvh] md:bottom-[20dvh] xl:bottom-[12dvh] self-end scale-[35%] md:scale-50 lg:scale-75 xl:scale-100">
+      <div className="w-64 absolute right-[40%] md:right-[25%] lg:right-[30%] xl:right-[45%] bottom-[35dvh] md:bottom-[20dvh] xl:bottom-[12dvh] self-end scale-50 lg:scale-75 xl:scale-100">
         <svg
-          className="paper-1 w-80 -mb-32 ml-28 opacity-0"
+          className="paper-1 w-64 -mb-24 ml-28 opacity-0"
           viewBox="0 0 158 98"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -105,7 +105,7 @@ export default function HeroSection() {
         </svg>
 
         <svg
-          className="paper-2 w-80 opacity-0"
+          className="paper-2 w-64 opacity-0"
           viewBox="0 0 159 100"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -130,9 +130,9 @@ export default function HeroSection() {
           />
         </svg>
       </div>
-      <div className="container px-4 lg:px-8 mx-auto relative">
-        <div className="flex flex-col gap-8 pb-16 xl:pb-24">
-          <h1 className="text-3xl md:text-[2.5rem] xl:text-[4rem] leading-tight font-semibold flex flex-col">
+      <div className="container px-4 lg:px-12 mx-auto relative">
+        <div className="flex flex-col gap-10 pb-16 xl:pb-36">
+          <h1 className="text-[2.5rem] md:text-[3rem] lg:text-[3.5rem] xl:text-[5rem] leading-snug font-semibold flex flex-col">
             <span className="animate-01">
               <span>Take Control</span>
             </span>{" "}
@@ -141,7 +141,7 @@ export default function HeroSection() {
             </span>
           </h1>
           <div className="animate-01">
-            <p className="text-base xl:text-lg">
+            <p className="text-lg lg:text-xl text-gray-600">
               Our certified credit counselors are here to help.
             </p>
           </div>
@@ -149,7 +149,7 @@ export default function HeroSection() {
             <span className="animate-01">
               <Link
                 href={"#"}
-                className="block rounded-lg m-0.5 px-4 xl:px-7 py-3 bg-black text-white/80 cursor-pointer hover:bg-black/90 hover:text-white transition-all duration-300 opacity-0"
+                className="block rounded-lg m-0.5 px-3 py-3 bg-black text-white/80 cursor-pointer hover:bg-black/90 hover:text-white transition-all duration-300 opacity-0"
               >
                 <AnimateBtn>Get Started</AnimateBtn>
               </Link>
@@ -157,7 +157,7 @@ export default function HeroSection() {
             <span className="animate-01">
               <Link
                 href={"#"}
-                className="block rounded-lg m-0.5 px-4 xl:px-7 py-3 border border-foreground/20 cursor-pointer hover:border-foreground transition-all duration-300 opacity-0"
+                className="block rounded-lg m-0.5 px-3 xl:px-5 py-3 border border-foreground/20 cursor-pointer hover:border-foreground transition-all duration-300 opacity-0"
               >
                 <AnimateBtn>Learn More</AnimateBtn>
               </Link>

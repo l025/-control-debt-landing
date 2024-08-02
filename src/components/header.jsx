@@ -4,7 +4,7 @@ import { AnimateBtn } from "./animate-btn";
 export default function Header() {
   return (
     <header className="fixed left-0 top-2.5 w-full z-10">
-      <div className="container pr-4 lg:px-4 mx-auto flex justify-between items-center">
+      <div className="container pr-4 lg:px-12 mx-auto flex justify-between items-center">
         <Link href={"#"} className="animate-01">
           <img src="/logo.png" alt="logo" className="h-16" />
         </Link>
